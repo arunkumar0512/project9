@@ -22,9 +22,9 @@ app.get("/", async (req, res) => {
     res
       .status(200)
       .json({
-        message: "assign mentor API done by kuralnithi Working Fine....",
+        message: "assign mentor API done by Arunkumar Working Fine....",
       });
-    console.log("assign mentor API done by kuralnithi Working Fine....");
+    console.log("assign mentor API done by Arunkumar Working Fine....");
   } catch (error) {
     res.status(500).json({ message: "server error" });
     console.log("error in server>>>>>>>");
